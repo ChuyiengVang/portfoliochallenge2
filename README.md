@@ -18,4 +18,6 @@ This is my first attempt at a working portfolio so I made a copy of the example 
    
   https://chuyiengvang.github.io/portfoliochallenge2/#
   
-![chuyiengvang github io_portfoliochallenge2_ (1)](https://user-images.githubusercontent.com/124082784/236712598-d0e50508-18c0-44a3-933e-7124d1bd3e0a.png)
+![chuyiengvang github io_portfoliochallenge2_](https://user-images.githubusercontent.com/124082784/236712742-40cbfba1-c5c3-4671-b286-f01c0688b8dd.pn
+![chuyiengvang github io_portfoliochallenge2_ (1)](https://user-images.githubusercontent.com/124082784/236712734-72fc1e1a-15b1-438a-ba74-5d0d969d02a4.png)
+2_.png
