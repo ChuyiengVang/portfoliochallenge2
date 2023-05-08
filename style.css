@@ -1,0 +1,478 @@
+:root {
+    --dark: #4D455D;
+    --mediumdark: #E96479;
+    --light: #F5E9CF;
+    --verylight: #7DB9B6;
+    --bfont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --mfont:'Times New Roman', Times, serif;
+    --sfont:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  * {
+    box-sizing:border-box;
+    
+  }
+  
+  body{
+    background-color: var(--light);
+    margin: 0;
+  }
+  
+  .head {
+    display: flex;
+    justify-content:space-between;
+    background-color:var(--dark);
+    padding: 5px;
+    color:darkslategray;
+  }
+  
+  h1 {
+    display: block;
+    background-color:var(--mediumdark);
+    padding: 3px 5px;
+    font-size: 35px;
+    font-family:var(--bfont);
+    color:var(--dark);
+  }
+  
+  .head ul{
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .head nav ul li{
+  font-size: 25px;
+  font-family:var(--mfont);
+  margin-top: 13px;
+  margin-left: 20px;
+  padding: 3px;
+  }
+  
+  .navi{
+    color:var(--mediumdark);
+  }
+  
+  a.navi:hover {
+    color:var(--dark);
+    background-color:var(--mediumdark);
+    border-radius: 15px;
+    padding: 8px;
+  }
+  
+  .title {
+    position: relative;
+    background-image: url(https://wallpaperaccess.com/full/4982.jpg);
+    background-size: cover;
+    padding: 25px;
+  }
+  
+  #wp {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .title h2 {
+    background-color:var(--mediumdark);
+    border-radius: 20px;
+    padding: 15px;
+    font-family:var(--bfont);
+    font-size: 40px;
+    color:var(--dark);
+  }
+  
+  #mypicture {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    width: 140px;
+    height: 170px;
+   }
+  
+  #mp {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .aside1 {
+    flex: 1;
+    background-color:var(--light);
+    padding: 20px;
+    border-right: solid var(--dark);
+    border-width: 3px;
+  }
+  
+  .aside1 h2 {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align:right;
+    font-size: 40px;
+    font-family:var(--bfont);
+    color:var(--dark);
+  }
+  
+  .aboutme {
+    flex: 3;
+    background-color: var(--light);
+    padding: 20px;
+    font-size: 20px;
+    font-family:var(--sfont);
+    color:var(--dark);
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .work {
+    flex: 1;
+    background-color:var(--light);
+    padding: 20px;
+    border-right: solid var(--dark);
+    border-width: 3px;
+  }
+  
+  .work h2 {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    font-size: 40px;
+    font-family:var(--bfont);
+    color:var(--dark);
+  }
+  
+  .workinfo {
+    flex: 3;
+    background-color: var(--light);
+    padding: 5px;
+    align-content: center;
+  }
+  
+  #sampleimh {
+    position: relative;
+    background-image: url(https://www.surfertoday.com/images/stories/clouds.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    width: 590px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    border: 4px solid var(--mediumdark);
+  }
+  
+  #sampleimh h3 {
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    padding: 5px;
+    background-color:var(--dark);
+    border-radius: 15px 0px 0px 15px;
+    font-size: 30px;
+    font-family:var(--mfont);
+    color:var(--mediumdark);
+  }
+  
+  .timages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  #sampleimg, #sampleimg2, #sampleimg3, #sampleimg4 {
+    position: relative;
+    background-size: cover;
+    filter: brightness(80%);
+    width: 287px;
+    height: 140px;
+    border: 4px solid var(--mediumdark);
+    margin: 8px;
+  }
+  
+  #sampleimg h3, #sampleimg2 h3, #sampleimg3 h3, #sampleimg4 h3 {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    padding: 5px;
+    background-color: var(--dark);
+    border-radius: 15px 0px 0px 15px;
+    font-size: 20px;
+    color:var(--mediumdark);
+  }
+  
+  #sampleimg {
+    background-image: url(https://images.photowall.com/products/58341/foggy-forest-4.jpg?h=380&q=75);
+  }
+  
+  #sampleimg2 {
+    background-image: url(https://cdn.wallpapersafari.com/84/35/l85BYI.jpg);
+  }
+  
+  #sampleimg3 {
+    background-image: url(https://cdn.wallpapersafari.com/45/26/HjBLUN.jpg);
+  }
+  
+  #sampleimg4 {
+    background-image: url(https://images.unsplash.com/photo-1619266465172-02a857c3556d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGF2YXxlbnwwfHwwfHw%3D&w=1000&q=80);
+  }
+  
+   #sampleimh:hover, #sampleimg:hover, #sampleimg2:hover, #sampleimg3:hover, #sampleimg4:hover {
+    border: 4px solid var(--dark);
+    border-radius: 20px;
+    filter: brightness(110%);
+  }
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  
+  .foot{
+    flex: 1;
+    background-color:var(--light);
+    padding: 20px;
+    border-right: solid var(--dark);
+    border-width: 3px;
+  }
+  
+  .foot h2 {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    font-size: 40px;
+    font-family:var(--bfont);
+    color:var(--dark);
+  }
+  
+  .cinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 3;
+    padding: 5px;
+    margin-top: 80px;
+  }
+  
+  .cinfo ul {
+    flex-wrap: wrap;
+    margin-left: -125px;
+  }
+  
+  .cinfo ul li {
+    display: inline-block;
+    margin-left: 55px;
+  }
+  
+  .contact {
+    font-size: 23px;
+    font-family:var(--mfont);
+    color: var(--dark);
+  }
+  
+  .contact:hover {
+    background-color:var(--dark);
+    padding: 8px;
+    border-radius: 15px;
+    color:var(--mediumdark)
+  }
+  
+  @media screen and (max-width: 768px) {
+    .head{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      flex-direction: column;
+    }
+  
+    header h1 {
+      text-align: center;
+      margin-top: -12px;
+      margin-bottom: -15px;
+    }
+  
+     header nav {
+      text-align: center;
+      margin-right: 70px;
+     }
+  
+     .title {
+      padding: 20px;
+     }
+  
+     .title h2 {
+      font-size: 25px;
+      }
+  
+    br {
+      display: none;
+    }
+  
+    .bio {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction:column
+    }
+  
+    .aside1{
+      display: flex;
+      border-bottom: solid;
+      border-right: none;
+      margin: 0px 17px;
+      padding: 0px;
+    }
+  
+    .aside1 h2 {
+      margin-bottom: 10px;
+    }
+  
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .work{
+      display: flex;
+      border-bottom: solid;
+      border-right: none;
+      margin: 0px 30px;
+      padding: 0px;
+    }
+  
+    .work h2 {
+      margin-top: -17px;
+      margin-bottom: 9px;
+    }
+  
+    #sampleimh {
+      width: 550px;
+      margin-top: 15px;
+    }
+  
+    #sampleimg, #sampleimg2, #sampleimg3, #sampleimg4{
+      width: 267px;
+    }
+  
+    footer {
+      display: flex;
+      flex-direction:column;
+      margin-top: -10px;
+      padding-top: 0px;
+    }
+  
+     .foot{
+      display: flex;
+      border-right: none;
+      border-bottom: solid;
+      margin: 0px 31px;
+    }
+  
+    .foot h2 {
+      margin-bottom: -10px;
+    }
+  
+    .cinfo {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      margin: 0px;
+    }
+  
+    .contact {
+      display: inline-block;
+      font-size: 20px;
+      margin-left: -10px;
+    }
+  }
+  
+  @media screen and (max-width: 460px) {
+   header nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  
+    .title {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      height: 100px;
+    }
+  
+    .title h2{
+      position: absolute;
+      padding: 10px;
+      font-size: 20px;
+    }
+  
+    #mp {
+      display: none;
+    }
+  
+    .aside1 h2{
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+  
+    .work h2 {
+      margin-top: -20px;
+      margin-bottom: 9px;
+    }
+  
+    .workinfo {
+      margin-top: 17px;
+    }
+  
+    #sampleimh {
+      width: 267px;
+      height: 130px;
+    }
+  
+    #sampleimh h3 {
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 86px;
+      height: 26px;
+      background-color: var(--mediumdark);
+      font-size: 21px;
+      color: var(--dark);
+    }
+  
+    #sampleimg, #sampleimg2, #sampleimg3, #sampleimg4{
+      height: 130px;
+    }
+    .foot h2 {
+      margin-top: -5px;
+      margin-bottom: -10px;
+    }
+  
+    .cinfo {
+      display:flex;
+      justify-content: center;
+      margin-top: -5px;
+      margin-left: 80px;
+    }
+  
+    .cinfo ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0px;
+    }
+  
+  .contact{
+    margin-bottom: 10px;
+    }
+  }
