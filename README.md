@@ -18,4 +18,4 @@ This is my first attempt at a working portfolio so I made a copy of the example 
    
   https://chuyiengvang.github.io/portfoliochallenge2/#
   
-![Alt text]([/relative/path/to/img.jpg?raw=true "Optional Title"](https://github.com/ChuyiengVang/portfoliochallenge2/blob/main/chuyiengvang.github.io_portfoliochallenge2_%20(3).png)
+![chuyiengvang github io_portfoliochallenge2_ (1)](https://user-images.githubusercontent.com/124082784/236712598-d0e50508-18c0-44a3-933e-7124d1bd3e0a.png)
